@@ -284,4 +284,7 @@ a {
   .header-intro p {
     font-size: .857rem;
   }
+  .header-intro {
+    margin-left: 2rem;
+  }
 }
