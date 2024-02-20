@@ -222,6 +222,16 @@ a {
   padding: 24px;
   background-color: #F3F7E9;
 }
+.js-content {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: 1s;
+}
+
+.js-content.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
 
 @media(max-width:768px) {
   .sobre {
