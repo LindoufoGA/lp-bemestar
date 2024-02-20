@@ -257,6 +257,12 @@ a {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .header-bg {
+    background-position: right;
+  }
+  .header-intro {
+    margin-left: 3rem;
+  }
 }
 
 @media(max-width:500px) {
