@@ -258,7 +258,7 @@ a {
     justify-content: center;
   }
   .header-bg {
-    background-position: right;
+    background-position: center;
   }
   .header-intro {
     margin-left: 3rem;
@@ -276,3 +276,12 @@ a {
     font-size: 1.5rem;
   }
 } 
+
+@media(max-width:350px) {
+  .header-intro h1 {
+    font-size: 1rem;
+  }
+  .header-intro p {
+    font-size: .857rem;
+  }
+}
