@@ -24,7 +24,7 @@ a {
   margin: 0 auto;
 }
 .header-bg {
-  background-image: url("img/header-img.jpg");
+  background-image: url("img/header-img.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,14 +63,17 @@ a {
 /* ENTREGUES */
 .lista-entregues {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px ;
   margin-bottom: 6rem;
+  justify-content: space-evenly;
 }
 .item-entregue {
   background-color: #F3F7E9;
   color: #5d6068;
   padding: 30px;
   border-radius: 8px;
+  width: 350px;
 }
 .item-entregue:hover {
   background-color: #72AE44;
@@ -168,7 +171,9 @@ a {
   transition: opacity 0.5s ease;
 }
 .div-item.active {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   opacity: 1;
 }
 .item-produtos {
@@ -217,3 +222,51 @@ a {
   padding: 24px;
   background-color: #F3F7E9;
 }
+
+@media(max-width:768px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre-intro {
+    padding: 14px;
+  }
+  .header-intro h1 {
+    font-size: 2rem;
+  }
+  .header-intro p {
+    font-size: 1.15rem;
+  }
+  .sobre img {
+    border-radius: 0px;
+  }
+}
+
+@media(max-width:650px) {
+
+  .tabela-produtos {
+    grid-template-columns: 1fr;
+  }
+  .lista-produtos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: none;
+    border-bottom: 2px solid #72AE44;
+  }
+  .div-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media(max-width:500px) {
+  .header-intro h1 {
+    font-size: 1.5rem;
+  }
+  .header-intro p {
+    font-size: 1rem;
+  }
+  .ultima-chamada {
+    font-size: 1.5rem;
+  }
+} 

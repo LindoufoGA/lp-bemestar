@@ -13,6 +13,6 @@ function mostrarConteudo(target) {
 	// Exibe a div correspondente ao target
 	const selectedDiv = document.getElementById(target);
 	if (selectedDiv) {
-			selectedDiv.style.display = 'block';
+			selectedDiv.style.display = 'flex';
 	}
 }
