@@ -285,12 +285,6 @@ a {
     font-size: .857rem;
   }
   .header-intro {
-    margin-left: 2rem;
-  }
-}
-
-@media(max-width:300px) {
-  .header-intro {
     margin-left: 1rem;
   }
 }
