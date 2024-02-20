@@ -288,3 +288,9 @@ a {
     margin-left: 2rem;
   }
 }
+
+@media(max-width:300px) {
+  .header-intro {
+    margin-left: 1rem;
+  }
+}
