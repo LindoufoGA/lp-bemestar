@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.mapa {
+  color: #000;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;

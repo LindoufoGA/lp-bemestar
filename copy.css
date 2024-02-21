@@ -1,0 +1,27 @@
+h1 {
+  margin-bottom: 1rem;
+  color: #72AE44;
+  border-bottom: 2px solid #72AE44;
+  width: max-content;
+}
+
+h2,ul,ol,li {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+.conteudo h1:first-child {
+  margin-top: 5rem;
+}
+#inicio {
+  padding-bottom:12px;
+  font-weight: bold;
+  color: #72AE44;
+  font-size: 1.5rem;
+  margin-bottom: 8rem;
+  margin-left: 5rem;
+  border-bottom: 1px solid #72AE44;
+
+}
